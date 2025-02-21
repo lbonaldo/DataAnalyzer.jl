@@ -41,11 +41,6 @@ AnalysisConfig
 AnalysisResults
 ```
 
-```@autodocs
-Modules = [DataAnalyzer]
-Pages = ["my_script.jl"]
-```
-
 ### Functions
 ```@docs
 get_data

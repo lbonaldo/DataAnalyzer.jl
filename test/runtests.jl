@@ -4,6 +4,9 @@ using Aqua
 using JET
 
 @testset "DataAnalyzer.jl" begin
+    @testset "DataAnalyzer.jl" begin
+        include("test_my_script.jl")
+    end
     @testset "Code quality (Aqua.jl)" begin
         Aqua.test_all(DataAnalyzer)
     end
